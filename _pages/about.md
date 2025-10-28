@@ -7,17 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Myeongsoo Kim, an Applied Scientist at AWS AI working on [Amazon Q Developer](https://aws.amazon.com/q/developer/). My work focuses on building LLM-based AI agents for automated code generation and intelligent software development tools.
+Hi, I'm Myeongsoo Kim, an Applied Scientist at AWS AI working on [Amazon Q Developer](https://aws.amazon.com/q/developer/). I'm part of the team developing an AI-powered assistant that helps developers build, debug, and maintain applications. My work focuses on creating intelligent agents that understand code context, generate high-quality code, and assist with complex software engineering tasks using large language models.
 
 ## Recent News
 
-- **[NeurIPS 2025]** Our paper "CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance" has been accepted to the Datasets and Benchmarks track! [[arXiv](https://arxiv.org/abs/2507.10646)]
+- **[ICSE 2025 Industry - 🏆 Distinguished Paper Award]** "Aster: Natural and Multi-Language Unit Test Generation with LLMs"  
+  Rangeet Pan, **Myeongsoo Kim**, Rahul Krishna, Raju Pavuluri, Saurabh Sinha
 
-- **[FSE 2025]** "LlamaRestTest: Effective REST API Testing with Small Language Models" accepted to the Research track! [[ACM DL](https://dl.acm.org/doi/10.1145/3715737)]
+- **[NeurIPS 2025 D&B]** "CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance"  
+  **Myeongsoo Kim**, Shweta Garg, Baishakhi Ray, Varun Kumar, Anoop Deoras  
+  [[arXiv](https://arxiv.org/abs/2507.10646)]
 
-- **[ICSE 2025]** "A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs" accepted to the Research track! [[IEEE](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00179)]
+- **[FSE 2025]** "LlamaRestTest: Effective REST API Testing with Small Language Models"  
+  **Myeongsoo Kim**, Saurabh Sinha, Alessandro Orso  
+  [[ACM DL](https://dl.acm.org/doi/10.1145/3715737)]
 
-- **[ICSE 2025]** "AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL" accepted to the Demo track! [[IEEE](https://dl.acm.org/doi/10.1109/ICSE-Companion66252.2025.00015)]
+- **[ICSE 2025 Research]** "A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs"  
+  **Myeongsoo Kim**, Saurabh Sinha, Alessandro Orso  
+  [[IEEE](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00179)]
+
+- **[ICSE 2025 Demo]** "AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL"  
+  Tyler Stennett, **Myeongsoo Kim**, Saurabh Sinha, Alessandro Orso  
+  [[IEEE](https://dl.acm.org/doi/10.1109/ICSE-Companion66252.2025.00015)]
 
 ## Research Interests
 
@@ -26,10 +37,6 @@ My research and development work centers on:
 - **AI Agents** for automated software development
 - **Software Engineering** tools and best practices
 - **Machine Learning Systems** at scale
-
-## Current Work
-
-At AWS AI, I'm part of the team developing Amazon Q Developer, an AI-powered assistant that helps developers build, debug, and maintain applications. I focus on creating intelligent agents that can understand code context, generate high-quality code, and assist with complex software engineering tasks.
 
 ## Background
 
