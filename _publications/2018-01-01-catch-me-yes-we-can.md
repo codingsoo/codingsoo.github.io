@@ -3,14 +3,15 @@ title: "Catch me, Yes we can! - Pwning Social Engineers using Natural Language P
 collection: publications
 category: conferences
 permalink: /publication/2018-catch-me-yes-we-can
-excerpt: 'This paper presents an approach which analyzes attack content to detect inappropriate statements which are indicative of social engineering attacks. The approach focuses on natural language text analysis performing semantic analysis to detect malicious intent, making it applicable to detect attacks using non-email vectors including texting, chat applications, and phone/in-person attacks.'
+excerpt: 'White paper presenting an approach to detect social engineering attacks through natural language processing and semantic analysis. Applicable to multiple attack vectors including email, texting, chat applications, and phone/in-person communication.'
 date: 2018-08-01
-venue: 'Black Hat USA 2018'
+venue: 'Black Hat USA 2018 (White Paper)'
+paperurl: 'https://codingsoo.github.io/files/catch-me-yes-we-can-blackhat2018.pdf'
 slidesurl: 'https://www.youtube.com/watch?v=i0f9T3aEvM0'
-citation: 'Myeongsoo Kim, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G Harris, Marcel Carlsson. (2018). &quot;Catch me, Yes we can! - Pwning Social Engineers using Natural Language Processing Techniques in Real-Time.&quot; <i>Black Hat USA 2018</i>.'
+citation: 'Myeongsoo Kim, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G Harris, Marcel Carlsson. (2018). &quot;Catch me, Yes we can! - Pwning Social Engineers using Natural Language Processing Techniques in Real-Time.&quot; <i>Black Hat USA 2018 White Paper</i>.'
 ---
 
-Social engineering attacks are one of the most common and least defended security threats today. This paper presents an approach which analyzes attack content to detect inappropriate statements which are indicative of social engineering attacks.
+Social engineering attacks are one of the most common and least defended security threats today. This white paper presents an approach which analyzes attack content to detect inappropriate statements which are indicative of social engineering attacks.
 
 ## Key Contributions
 
@@ -27,4 +28,23 @@ The approach leverages question answering systems to determine privacy status of
 
 **Authors:** Myeongsoo Kim, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G Harris, Marcel Carlsson
 
-**Video Presentation:** [Watch on YouTube](https://www.youtube.com/watch?v=i0f9T3aEvM0)
+**Resources:**
+- [Download White Paper (PDF)](https://codingsoo.github.io/files/catch-me-yes-we-can-blackhat2018.pdf)
+- [Video Presentation (YouTube)](https://www.youtube.com/watch?v=i0f9T3aEvM0)
+- [Black Hat USA 2018 Session](https://www.blackhat.com/us-18/briefings/schedule/#catch-me-yes-we-can--pwning-social-engineers-using-natural-language-processing-techniques-in-real-time-9946)
+
+## Citation
+
+Kim, Myeongsoo, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G. Harris, and Marcel Carlsson. "Catch me, yes we can!-pwning social engineers using natural language processing techniques in real-time." Black Hat USA 2018 White Paper.
+
+### BibTeX
+
+```bibtex
+@misc{kim2018catch,
+  title={Catch me, yes we can!-pwning social engineers using natural language processing techniques in real-time},
+  author={Kim, Myeongsoo and Song, Changheon and Kim, Hyeji and Park, Deahyun and Kwon, Yeeji and Namkung, Eun and Harris, Ian G and Carlsson, Marcel},
+  year={2018},
+  howpublished={Black Hat USA 2018 White Paper},
+  url={https://www.blackhat.com/us-18/briefings/schedule/#catch-me-yes-we-can--pwning-social-engineers-using-natural-language-processing-techniques-in-real-time-9946}
+}
+```
