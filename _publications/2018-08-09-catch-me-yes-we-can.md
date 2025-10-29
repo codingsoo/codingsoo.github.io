@@ -4,10 +4,10 @@ collection: publications
 category: conferences
 permalink: /publication/2018-catch-me-yes-we-can
 excerpt: 'White paper presenting an approach to detect social engineering attacks through natural language processing and semantic analysis. Applicable to multiple attack vectors including email, texting, chat applications, and phone/in-person communication.'
-date: 2018-08-01
+date: 2018-08-09
 venue: 'Black Hat USA 2018 (White Paper)'
 paperurl: 'https://codingsoo.github.io/files/catch-me-yes-we-can-blackhat2018.pdf'
-slidesurl: 'https://www.youtube.com/watch?v=i0f9T3aEvM0'
+videourl: 'https://www.youtube.com/watch?v=i0f9T3aEvM0'
 citation: 'Myeongsoo Kim, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G Harris, Marcel Carlsson. (2018). &quot;Catch me, Yes we can! - Pwning Social Engineers using Natural Language Processing Techniques in Real-Time.&quot; <i>Black Hat USA 2018 White Paper</i>.'
 ---
 
@@ -33,11 +33,7 @@ The approach leverages question answering systems to determine privacy status of
 - [Video Presentation (YouTube)](https://www.youtube.com/watch?v=i0f9T3aEvM0)
 - [Black Hat USA 2018 Session](https://www.blackhat.com/us-18/briefings/schedule/#catch-me-yes-we-can--pwning-social-engineers-using-natural-language-processing-techniques-in-real-time-9946)
 
-## Citation
-
-Kim, Myeongsoo, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G. Harris, and Marcel Carlsson. "Catch me, yes we can!-pwning social engineers using natural language processing techniques in real-time." Black Hat USA 2018 White Paper.
-
-### BibTeX
+## BibTeX
 
 ```bibtex
 @misc{kim2018catch,

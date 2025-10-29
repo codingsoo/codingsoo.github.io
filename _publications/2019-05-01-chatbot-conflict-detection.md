@@ -8,6 +8,8 @@ date: 2019-05-01
 venue: '2019 IEEE/ACM 1st International Workshop on Bots in Software Engineering (BotSE)'
 paperurl: 'https://ieeexplore.ieee.org/document/8823615'
 citation: 'E. Paikari et al., &quot;A Chatbot for Conflict Detection and Resolution,&quot; 2019 IEEE/ACM 1st International Workshop on Bots in Software Engineering (BotSE), Montreal, QC, Canada, 2019, pp. 29-33, doi: 10.1109/BotSE.2019.00016.'
+github: 'https://github.com/codingsoo/Archive/tree/main/conflict-prediction'
+video: 'https://www.youtube.com/embed/FO2RW24wHFQ'
 ---
 
 This paper presents a chatbot system designed to help developers detect and resolve code conflicts in collaborative software development environments.
@@ -37,14 +39,10 @@ Chatbots, code conflicts, collaborative development, configuration management, a
 
 **IEEE Xplore:** [View Paper](https://ieeexplore.ieee.org/document/8823615)
 
-## Citation
-
-E. Paikari et al., "A Chatbot for Conflict Detection and Resolution," 2019 IEEE/ACM 1st International Workshop on Bots in Software Engineering (BotSE), Montreal, QC, Canada, 2019, pp. 29-33, doi: 10.1109/BotSE.2019.00016.
-
-### BibTeX
+## BibTeX
 
 ```bibtex
-@INPROCEEDINGS{8823615,
+@INPROCEEDINGS{paikari2019,
   author={Paikari, Elahe and Choi, JaeEun and Kim, SeonKyu and Baek, Sooyoung and Kim, MyeongSoo and Lee, SeungEon and Han, ChaeYeon and Kim, YoungJae and Ahn, KaHye and Cheong, Chan and van der hoek, André},
   booktitle={2019 IEEE/ACM 1st International Workshop on Bots in Software Engineering (BotSE)}, 
   title={A Chatbot for Conflict Detection and Resolution}, 
@@ -55,3 +53,4 @@ E. Paikari et al., "A Chatbot for Conflict Detection and Resolution," 2019 IEEE/
   keywords={Codes;Conferences;Configuration management;Collaboration;Chatbots;Software engineering;Software development management;Chatbots;code conflicts;collaborative development;configuration management;awareness},
   doi={10.1109/BotSE.2019.00016}
 }
+```
