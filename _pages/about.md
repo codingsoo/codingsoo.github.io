@@ -9,6 +9,8 @@ redirect_from:
 
 Hi, I'm Myeongsoo Kim, an Applied Scientist at AWS AI working on [Amazon Q Developer](https://aws.amazon.com/q/developer/). I'm part of the team developing an AI-powered assistant that helps developers build, debug, and maintain applications. My work focuses on creating intelligent agents that understand code context, generate high-quality code, and assist with complex software engineering tasks using large language models.
 
+I earned my PhD in Computer Science from Georgia Tech, where I worked under the supervision of [Prof. Alessandro Orso](https://engineering.uga.edu/team_member/alex-orso/) (now Dean at the University of Georgia's College of Engineering). My doctoral research focused on software engineering and program analysis. I joined AWS AI in December 2024.
+
 ## Recent News
 
 - **[ICSE 2025 Industry - 🏆 Distinguished Paper Award]** "Aster: Natural and Multi-Language Unit Test Generation with LLMs"  
@@ -37,12 +39,6 @@ My research and development work centers on:
 - **AI Agents** for automated software development
 - **Software Engineering** tools and best practices
 - **Machine Learning Systems** at scale
-
-## Background
-
-I earned my PhD in Computer Science from Georgia Tech, where I worked under the supervision of [Prof. Alessandro Orso](https://engineering.uga.edu/team_member/alex-orso/) (now Dean at the University of Georgia's College of Engineering). My doctoral research focused on software engineering and program analysis.
-
-I joined AWS AI in December 2024, where I now apply cutting-edge AI and machine learning techniques to real-world software development challenges. My work combines research in natural language processing, program synthesis, and software engineering to create tools that enhance developer productivity.
 
 ## Publications
 
