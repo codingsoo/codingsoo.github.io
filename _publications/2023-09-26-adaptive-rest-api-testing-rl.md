@@ -212,20 +212,6 @@ Evaluated on 10 real-world RESTful services:
 4. **Comprehensive Evaluation:** Extensive empirical study demonstrating superior effectiveness, efficiency, and fault-detection capability
 5. **Open-Source Artifact:** Publicly available tool, benchmark services, and experimental results
 
-## Limitations and Future Work
-
-**Current Limitations:**
-- Struggles with semantic parameters requiring specific formats (e.g., email, address, phone number)
-- Performance can be affected by services with strict formatting requirements
-
-**Future Directions:**
-- Combine with RESTful-service Property Graph (RPG) for better operation dependencies
-- Multi-agent reinforcement learning approach
-- Natural language analysis of server responses
-- Large language model integration for operation sequencing
-- Enhanced value generation using extensive parameter datasets
-- Detection of wider variety of bugs beyond 500 status codes
-
 ## BibTeX
 
 ```bibtex
