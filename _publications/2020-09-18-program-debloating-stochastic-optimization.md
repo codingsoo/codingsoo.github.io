@@ -12,6 +12,10 @@ citation: 'Qi Xin, Myeongsoo Kim, Qirun Zhang, and Alessandro Orso. 2020. Progra
 
 Programs typically provide a broad range of features. Because different typologies of users tend to use only a subset of these features, and unnecessary features can harm performance and security, program debloating techniques, which can reduce the size of a program by eliminating (possibly) unneeded features, are becoming increasingly popular.
 
+**Resources:**
+- [ACM Digital Library](https://doi.org/10.1145/3377816.3381739)
+- [Project Website](https://sites.google.com/view/debop19)
+
 ## Problem Statement
 
 Most existing debloating techniques tend to focus on program-size reduction alone and, although effective, ignore other important aspects of debloating. We believe that program debloating is a multifaceted problem that must be addressed in a more general way.
@@ -95,22 +99,6 @@ We evaluated Debop on **mkdir** (version 5.2.1, ~28K LOCs), a Unix utility for c
 2. Debop: an instance supporting size, attack-surface, and generality objectives via MCMC sampling
 3. Proof-of-concept evaluation demonstrating effectiveness and trade-offs
 4. Open-source implementation and experimental infrastructure at https://sites.google.com/view/debop19
-
-## Publication Details
-
-**Authors:** Qi Xin, Myeongsoo Kim, Qirun Zhang, Alessandro Orso
-
-**Published in:** Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER '20)
-
-**Conference:** May 23–29, 2020, Seoul, Republic of Korea
-
-**Pages:** 65–68
-
-**DOI:** [10.1145/3377816.3381739](https://doi.org/10.1145/3377816.3381739)
-
-**Resources:**
-- [ACM Digital Library](https://doi.org/10.1145/3377816.3381739)
-- [Project Website](https://sites.google.com/view/debop19)
 
 ## BibTeX
 

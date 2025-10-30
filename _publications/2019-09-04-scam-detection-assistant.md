@@ -13,6 +13,11 @@ github: 'https://github.com/codingsoo/Archive/tree/main/social-engineering-defen
 
 Scams, also known as social engineering attacks, are an extremely common and dangerous threat today. This paper presents a tool called Scam Detection Assistant (SDA) which analyzes attack content to detect inappropriate statements indicative of social engineering attacks.
 
+**Resources:**
+- [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8938036)
+- [Free Paper (NSF PAR)](https://par.nsf.gov/servlets/purl/10167943)
+- [GitHub Repository](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense)
+
 ## Abstract
 
 Scams typically result in financial loss by convincing a victim to perform an ill-advised action such as sending money, or convincing them to provide private information. In this paper we present an approach to detect scams, focusing on scams which are conveyed in-person, over the phone, or via text/chat message. The Scam Detection Assistant (SDA) analyzes attack content to detect inappropriate statements which are indicative of social engineering attacks.
@@ -34,19 +39,6 @@ Focusing on content analysis makes our approach applicable to detect scams using
 A critical threat to the security of individuals and organizations is the increasing rate of scams being perpetrated each year. In 2016 alone, a total of 9.5 billion dollars was lost in the USA due to phone scams. The more formal term for scamming is social engineering - the psychological manipulation of people to gain unauthorized system access.
 
 Modern communication technologies, including cellular phones and the internet, have greatly increased both the reach of attackers and the effectiveness of their attacks.
-
-**Authors:** Myeongsoo Kim, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung
-
-**Published in:** 2019 First International Conference on Societal Automation (SA), Krakow, Poland
-
-**Date of Conference:** 04-06 September 2019
-
-**DOI:** [10.1109/SA47457.2019.8938036](https://doi.org/10.1109/SA47457.2019.8938036)
-
-**Resources:**
-- [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8938036)
-- [Free Paper (NSF PAR)](https://par.nsf.gov/servlets/purl/10167943)
-- [GitHub Repository](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense)
 
 ## BibTeX
 

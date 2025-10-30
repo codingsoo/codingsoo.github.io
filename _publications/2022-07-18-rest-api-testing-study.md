@@ -12,6 +12,10 @@ citation: 'Myeongsoo Kim, Qi Xin, Saurabh Sinha, and Alessandro Orso. 2022. Auto
 
 Modern web services routinely provide REST APIs for clients to access their functionality. These APIs present unique challenges and opportunities for automated testing, driving the recent development of many techniques and tools that generate test cases for API endpoints using various strategies.
 
+**Resources:**
+- [ACM Digital Library (Open Access)](https://doi.org/10.1145/3533767.3534401)
+- [Project Website](https://github.com/codingsoo/REST_Go)
+
 ## Problem Statement
 
 Understanding how REST API testing techniques compare to one another is difficult, as they have been evaluated on different benchmarks and using different metrics. This creates a gap in understanding the landscape of automated REST API testing and makes it challenging to guide future research in this area.
@@ -106,10 +110,6 @@ We implemented preliminary prototypes to validate our suggestions:
 3. Concrete suggestions for improvement with proof-of-concept evaluations
 4. Implications for future research in REST API testing
 5. Publicly available artifact with tools, benchmarks, and experimental infrastructure
-
-**Resources:**
-- [ACM Digital Library](https://doi.org/10.1145/3533767.3534401)
-- [Project Website](https://github.com/codingsoo/REST_Go)
 
 ## BibTeX
 

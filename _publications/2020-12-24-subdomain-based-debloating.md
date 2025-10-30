@@ -12,6 +12,10 @@ citation: 'Qi Xin, Myeongsoo Kim, Qirun Zhang, and Alessandro Orso. 2020. Subdom
 
 Programs are becoming increasingly complex and typically contain an abundance of unneeded features, which can degrade the performance and security of the software. Recently, we have witnessed a surge of debloating techniques that aim to create a reduced version of a program by eliminating the unneeded features therein.
 
+**Resources:**
+- [ACM Digital Library](https://doi.org/10.1145/3324884.3416644)
+- [Project Website](https://sites.google.com/view/domgad/)
+
 ## Problem with Existing Approaches
 
 To debloat a program, most existing techniques require a usage profile of the program, typically provided as a set of inputs I. Unfortunately, these techniques tend to generate a reduced program that is **overfitted to I** and thus fails to behave correctly for other inputs outside of that specific set.
@@ -51,10 +55,6 @@ Our results also show that DomGad performs well when compared with two state-of-
 2. DomGad: an implementation using stochastic optimization for generality-aware debloating
 3. Comprehensive evaluation on Unix utility programs demonstrating practical effectiveness
 4. Demonstrated superior balance between code reduction and program generality compared to existing techniques
-
-**Resources:**
-- [ACM Digital Library](https://doi.org/10.1145/3324884.3416644)
-- [Project Website](https://sites.google.com/view/domgad/)
 
 ## BibTeX
 

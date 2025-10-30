@@ -14,6 +14,11 @@ video: 'https://www.youtube.com/embed/FO2RW24wHFQ'
 
 This paper presents a chatbot system designed to help developers detect and resolve code conflicts in collaborative software development environments.
 
+**Resources:**
+- [IEEE Xplore](https://ieeexplore.ieee.org/document/8823615)
+- [Demo Video](https://www.youtube.com/embed/FO2RW24wHFQ)
+- [GitHub Repository](https://github.com/codingsoo/Archive/tree/main/conflict-prediction)
+
 ## Abstract
 
 In collaborative software development, code conflicts arise when multiple developers modify the same parts of code simultaneously. This paper introduces a chatbot that proactively monitors repositories for potential conflicts and notifies developers through their preferred communication channels. The chatbot helps maintain awareness of configuration management issues and facilitates conflict resolution.
