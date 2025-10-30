@@ -114,7 +114,7 @@ We implemented preliminary prototypes to validate our suggestions:
 ## BibTeX
 
 ```bibtex
-@inproceedings{10.1145/3533767.3534401,
+@inproceedings{kim2022restapi,
   author = {Kim, Myeongsoo and Xin, Qi and Sinha, Saurabh and Orso, Alessandro},
   title = {Automated test generation for REST APIs: no time to rest yet},
   year = {2022},

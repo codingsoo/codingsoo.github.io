@@ -4,17 +4,16 @@ collection: publications
 category: conferences
 permalink: /publication/2024-debloating-1du-chain-minimality
 excerpt: 'This paper introduces RLDebloatDU, a novel debloating technique that employs 1-DU chain minimality within abstract syntax trees to maintain essential program data dependencies. The approach strikes a balance between aggressive code reduction and preservation of program semantics, significantly reducing CVEs while maintaining soundness better than both aggressive and conservative baseline approaches.'
-date: 2024-04-14
-venue: '2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)'
+date: 2024-05-23
+venue: '2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Poster)'
 paperurl: 'https://doi.org/10.1145/3639478.3643518'
-citation: 'M. Kim, S. Pande and A. Orso, "Improving Program Debloating with 1-DU Chain Minimality," 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion), Lisbon, Portugal, 2024, pp. 384-385.'
+citation: 'Myeongsoo Kim, Santosh Pande, and Alessandro Orso. 2024. Improving Program Debloating with 1-DU Chain Minimality. In Proceedings of the 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion 24). Association for Computing Machinery, New York, NY, USA, 384–385. https://doi.org/10.1145/3639478.3643518'
 ---
 
 Modern software often struggles with bloat, leading to increased memory consumption and security vulnerabilities from unused code. In response, various program debloating techniques have been developed, but they typically fall into two extremes: aggressive approaches that risk reintroducing vulnerabilities, or conservative strategies that retain too much code.
 
 **Resources:**
-- [IEEE Xplore / ACM DL](https://doi.org/10.1145/3639478.3643518)
-- [arXiv Paper](https://arxiv.org/abs/2402.00276)
+- [ACM DL (Public Access)](https://dl.acm.org/doi/10.1145/3639478.3643518)
 - [GitHub Repository](https://github.com/codingsoo/RLDebloatDU)
 
 ## The Debloating Dilemma
@@ -225,13 +224,18 @@ Evaluated on 10 Linux kernel utilities:
 ## BibTeX
 
 ```bibtex
-@inproceedings{10554869,
-  author = {Kim, Myeongsoo and Pande, Santosh and Orso, Alessandro},
-  booktitle = {2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)}, 
-  title = {Improving Program Debloating with 1-DU Chain Minimality}, 
-  year = {2024},
-  pages = {384-385},
-  keywords = {Codes;Linux;Software algorithms;Semantics;Memory management;Syntactics;Software},
-  doi = {10.1145/3639478.3643518}
+@inproceedings{kim2024debloating,
+author = {Kim, Myeongsoo and Pande, Santosh and Orso, Alessandro},
+title = {Improving Program Debloating with 1-DU Chain Minimality},
+year = {2024},
+isbn = {9798400705021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3639478.3643518},
+doi = {10.1145/3639478.3643518},
+pages = {384–385},
+numpages = {2},
+location = {Lisbon, Portugal},
+series = {ICSE-Companion '24}
 }
 ```

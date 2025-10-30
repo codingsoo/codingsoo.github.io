@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2024-adaptive-rest-api-testing-rl
 excerpt: 'This paper presents ARAT-RL, an adaptive REST API testing technique that incorporates reinforcement learning to prioritize operations and parameters during exploration. The approach dynamically analyzes request and response data to inform dependent parameters and achieves superior code coverage and fault-detection capability compared to state-of-the-art tools.'
-date: 2024-01-09
+date: 2023-09-26
 venue: 'Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023)'
 paperurl: 'https://doi.org/10.1109/ASE56229.2023.00218'
 citation: 'Myeongsoo Kim, Saurabh Sinha, and Alessandro Orso. 2024. Adaptive REST API Testing with Reinforcement Learning. In Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023). IEEE Press, 446–458.'
@@ -215,10 +215,10 @@ Evaluated on 10 real-world RESTful services:
 ## BibTeX
 
 ```bibtex
-@inproceedings{10.1109/ASE56229.2023.00218,
+@inproceedings{kim2023rl,
   author = {Kim, Myeongsoo and Sinha, Saurabh and Orso, Alessandro},
   title = {Adaptive REST API Testing with Reinforcement Learning},
-  year = {2024},
+  year = {2023},
   isbn = {9798350329964},
   publisher = {IEEE Press},
   url = {https://doi.org/10.1109/ASE56229.2023.00218},

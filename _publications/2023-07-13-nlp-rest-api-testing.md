@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2023-nlp-rest-api-testing
 excerpt: 'This paper presents NLPtoREST, an automated approach that applies natural language processing techniques to extract rules from the human-readable part of OpenAPI specifications. The technique generates enhanced specifications that significantly improve the performance of REST API testing tools, increasing coverage by up to 103% and successful request rates by 20%.'
-date: 2023-07-17
+date: 2023-07-13
 venue: 'Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2023)'
 paperurl: 'https://doi.org/10.1145/3597926.3598131'
 citation: 'Myeongsoo Kim, Davide Corradini, Saurabh Sinha, Alessandro Orso, Michele Pasqua, Rachel Tzoref-Brill, and Mariano Ceccato. 2023. Enhancing REST API Testing with NLP Techniques. In Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2023). Association for Computing Machinery, New York, NY, USA, 1232–1243.'
@@ -153,7 +153,7 @@ Evaluated on 9 industrial-sized REST services (>10K LoC):
 ## BibTeX
 
 ```bibtex
-@inproceedings{10.1145/3597926.3598131,
+@inproceedings{kim2023nlp,
   author = {Kim, Myeongsoo and Corradini, Davide and Sinha, Saurabh and Orso, Alessandro and Pasqua, Michele and Tzoref-Brill, Rachel and Ceccato, Mariano},
   title = {Enhancing REST API Testing with NLP Techniques},
   year = {2023},
