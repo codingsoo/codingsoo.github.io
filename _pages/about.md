@@ -7,14 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Myeongsoo Kim, an Applied Scientist at AWS AI working on [Amazon Q Developer](https://aws.amazon.com/q/developer/). I'm part of the team developing an AI-powered assistant that helps developers build, debug, and maintain applications. My work focuses on creating intelligent agents that understand code context, generate high-quality code, and assist with complex software engineering tasks using large language models.
+Hi, I'm Myeongsoo Kim, an Applied Scientist at AWS AI Labs working on [Kiro](https://kiro.dev), an agentic AI development environment. I build coding agents and — just as importantly — the evaluation loops and trajectory analysis that show how well they actually work and where they fall short. A growing focus of mine is the loop between how agents perform in practice and how they get better: using benchmarks and trajectory analysis to find where they fall short, reproduce those cases, and feed what we learn back into improving the agent.
 
-I earned my PhD in Computer Science from Georgia Tech, where I worked under the supervision of [Prof. Alessandro Orso](https://engineering.uga.edu/team_member/alex-orso/) (now Dean at the University of Georgia's College of Engineering). My doctoral research focused on software engineering and program analysis. I joined AWS AI in December 2024.
+I earned my PhD in Computer Science from Georgia Tech, advised by [Prof. Alessandro Orso](https://engineering.uga.edu/team_member/alex-orso/).
 
 ## Recent News
 
+- **[EMNLP 2026 - Under Review]** "Coherence Collapse: Diagnosing Why Code Agents Fail After Reaching the Right Code"  
+  **Myeongsoo Kim**, Dingmin Wang, Siwei Cui, Farima Farmahinifarahani, Terry Yue Zhuo, Shweta Garg, Baishakhi Ray, Rajdeep Mukherjee, Varun Kumar  
+  [[arXiv](https://arxiv.org/abs/2603.24631)]
+
+- **[ACL 2026]** "CodeStruct: Code Agents over Structured Action Spaces"  
+  **Myeongsoo Kim**, Joe Hsu, Dingmin Wang, Shweta Garg, Varun Kumar, Murali Krishna Ramanathan  
+  [[arXiv](https://arxiv.org/abs/2604.05407)]
+
 - **[ICSE 2025 Industry - 🏆 Distinguished Paper Award]** "Aster: Natural and Multi-Language Unit Test Generation with LLMs"  
-  Rangeet Pan, **Myeongsoo Kim**, Rahul Krishna, Raju Pavuluri, Saurabh Sinha
+  Rangeet Pan, **Myeongsoo Kim**, Rahul Krishna, Raju Pavuluri, Saurabh Sinha  
+  [[IEEE CS](https://www.computer.org/csdl/proceedings-article/icse-seip/2025/368500a413/29kKWccGpK8)] [[arXiv](https://arxiv.org/pdf/2409.03093)]
 
 - **[NeurIPS 2025 D&B]** "CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance"  
   **Myeongsoo Kim**, Shweta Garg, Baishakhi Ray, Varun Kumar, Anoop Deoras  
@@ -34,11 +43,11 @@ I earned my PhD in Computer Science from Georgia Tech, where I worked under the 
 
 ## Research Interests
 
-My research and development work centers on:
+My work centers on:
+- **Coding agents** for real software engineering tasks
+- **Evaluation loops and benchmarks** for measuring agent performance
+- **Trajectory analysis and failure diagnosis** for coding agents
 - **Large Language Models (LLMs)** for code generation and understanding
-- **AI Agents** for automated software development
-- **Software Engineering** tools and best practices
-- **Machine Learning Systems** at scale
 
 ## Publications
 
