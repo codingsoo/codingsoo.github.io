@@ -1,3 +1,5 @@
 # Navigation links in the site header.
 
-main: []
+main:
+  - title: "Blog"
+    url: /blog/
