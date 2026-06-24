@@ -56,15 +56,11 @@ Applied Scientist working on coding agents, evaluation design, and LLM-guided so
 {\bf Amazon Web Services}, California, United States \hfill {\em Dec 2024 – Present} \\
 {\bf Applied Scientist II (L5)}, AWS AI Labs — Kiro Org
 \begin{itemize}
-    \item Designed CodeStruct, an AST-based structured action space for code agents using tree-sitter, reducing LLM calls by 34\% and tokens by 20\% with no pass@1 regression; filed patent and published at ACL 2026.
-    \item Developed TrajEval, a diagnostic evaluation framework that measures code agent capabilities (search, read, write) via oracle trajectory grounding, moving beyond binary pass@k to fine-grained capability metrics (under review, COLM 2026).
-    \item Building a data-driven auto-alignment loop (Kiro Trace) that analyzes live user traffic to surface per-model failure patterns, replays conversations as benchmarks, and proposes tool/prompt updates validated through a 4-gate evaluation pipeline (behavioral, regression, efficiency, latency).
-    \item Driving agentic post-training efforts, developing datasets, reward strategies, and behavioral objectives that improve model planning, tool-use reliability, and recovery behaviors.
-    \item Leading design of AECP (Agent-to-Agent Engineering Communication Protocol), a structured coordination standard enabling multi-agent code generation through machine-readable contracts rather than natural-language messages.
-    \item Built end-to-end agentic benchmark pipeline evaluating multi-turn reasoning, tool selection, and code-generation quality — including CodeAssistBench (accepted at NeurIPS 2025) — adopted org-wide to gate all prompt, tool, and routing updates.
-    \item Extending the auto-mode orchestration system to dynamically route requests across Claude, GPT-4, and specialized small models based on complexity, latency, and tool dependencies, improving cost efficiency while maintaining agentic quality.
-    \item Led agentic architecture improvements for Kiro IDE, designing planning workflows, tool orchestration strategies (batchRead, fuzzySearch, AST-based read/write, code agents), and XML-based prompt engineering, reducing median response latency by 14\% across 1M+ production messages and resulting in two filed patents.
-    \item Analyzed 1M+ real user conversations to identify failure patterns in agent reasoning, tool selection, and retrieval grounding, driving improvements in memory architecture, planning algorithms, and context-compression strategies.
+    \item Designed CodeStruct, an AST-based structured action space for code agents that reduces token consumption by up to 38\% while improving pass@1 accuracy; filed patent and published at ACL 2026.
+    \item Building Kiro Trace, a self-improvement loop that mines live user traffic for agent failures, reproduces them as runnable benchmarks, and validates fixes through reproducibility and fairness gates before shipping.
+    \item Built CodeAssistBench (NeurIPS 2025), a multi-turn evaluation benchmark for chat-based code assistance, adopted org-wide to gate all prompt, tool, and routing updates.
+    \item Led agent architecture improvements for Kiro --- planning workflows, tool orchestration, and prompt engineering --- reducing median response latency by 14\% across 1M+ production messages; two patents filed.
+    \item Developed TrajEval, a diagnostic framework that measures code agent capabilities (search, read, write) via oracle trajectory grounding, moving beyond binary pass@k (under review, COLM 2026).
 \end{itemize}
 {\bf IBM Research}, New York, United States \hfill {\em May 2024 – Aug 2024} \\
 {\bf PhD AI Research Internship} with the AI for Code Team
