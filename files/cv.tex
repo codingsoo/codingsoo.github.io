@@ -1,0 +1,287 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% Undergrad GPA 3.5/4.0 worth to put in?
+
+% Section sequence?
+
+% point 10 too small? Should I make it to 11 and make my resume to 3 pages?
+
+% Do I need bullet points for teaching experience and make my resume to 3 pages?
+
+% I actually have one more internship experience at Metagames when I was in undergrad, but I did not put it because the role was the same what I did in Bizbook and I did not want to make my CV to be more than 2 pages. Should I put it in?
+
+% Should I include presentations?
+
+% How can I improve my current CV?
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{MYEONGSOO KIM}
+\address{\faMapMarker~Santa Clara, CA 95054 \quad \faPhone~(+1) 678-576-5708 \quad \faEnvelope~codingsoo93@gmail.com \quad \faHome~\href{https://codingsoo.github.io/}{https://codingsoo.github.io/}}
+
+\hypersetup{
+    colorlinks=true,       % Enable colored links
+    linkcolor=black,      % Color of internal links
+    citecolor=black,      % Color of citations
+    filecolor=black,      % Color of file links
+    urlcolor=black        % Color of external links
+}
+\setlist[itemize]{topsep=-3pt, itemsep=0pt, partopsep=0pt, parsep=0pt}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+Applied Scientist with 6+ years of research combining reinforcement learning, LLM fine-tuning, and evaluation design. Built RL-based training loops for code agents using PPO and custom reward shaping (ASE 2023, ICSE 2025), fine-tuned language models on 50k+ examples for domain adaptation (FSE 2025, ICSE 2025 --- Distinguished Paper Award), and designed evaluation pipelines that measure model capabilities beyond binary metrics (NeurIPS 2025, ACL 2026). Currently building a data-driven auto-alignment loop at AWS that analyzes 1M+ real user interactions to diagnose per-model failures and propose reward-informed tool/prompt updates. 16 publications at top venues. Seeking to build RL environments that improve model intelligence at scale.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Work Experience}
+{\bf Amazon Web Services}, California, United States \hfill {\em Dec 2024 – Present} \\
+{\bf Applied Scientist II (L5)}, AWS AI Labs — Kiro Org
+\begin{itemize}
+    \item Designed CodeStruct, an AST-based structured action space for code agents using tree-sitter, reducing LLM calls by 34\% and tokens by 20\% with no pass@1 regression; filed patent and published at ACL 2026.
+    \item Developed TrajEval, a diagnostic evaluation framework that measures code agent capabilities (search, read, write) via oracle trajectory grounding, moving beyond binary pass@k to fine-grained capability metrics (under review, COLM 2026).
+    \item Building a data-driven auto-alignment loop (Kiro Trace) that analyzes live user traffic to surface per-model failure patterns, replays conversations as benchmarks, and proposes tool/prompt updates validated through a 4-gate evaluation pipeline (behavioral, regression, efficiency, latency).
+    \item Driving agentic post-training efforts, developing datasets, reward strategies, and behavioral objectives that improve model planning, tool-use reliability, and recovery behaviors.
+    \item Leading design of AECP (Agent-to-Agent Engineering Communication Protocol), a structured coordination standard enabling multi-agent code generation through machine-readable contracts rather than natural-language messages.
+    \item Built end-to-end agentic benchmark pipeline evaluating multi-turn reasoning, tool selection, and code-generation quality — including CodeAssistBench (accepted at NeurIPS 2025) — adopted org-wide to gate all prompt, tool, and routing updates.
+    \item Extending the auto-mode orchestration system to dynamically route requests across Claude, GPT-4, and specialized small models based on complexity, latency, and tool dependencies, improving cost efficiency while maintaining agentic quality.
+    \item Led agentic architecture improvements for Kiro IDE, designing planning workflows, tool orchestration strategies (batchRead, fuzzySearch, AST-based read/write, code agents), and XML-based prompt engineering, reducing median response latency by 14\% across 1M+ production messages and resulting in two filed patents.
+    \item Analyzed 1M+ real user conversations to identify failure patterns in agent reasoning, tool selection, and retrieval grounding, driving improvements in memory architecture, planning algorithms, and context-compression strategies.
+\end{itemize}
+{\bf IBM Research}, New York, United States \hfill {\em May 2024 – Aug 2024} \\
+{\bf PhD AI Research Internship} with the AI for Code Team
+\begin{itemize}
+    \item Automated Unit Test Generation Project: Co-developed static analysis-guided LLM test 
+  generation system combining symbolic execution with LLM-based assertion generation. 
+  Integrated retrieval-augmented generation for framework-specific patterns, leading to 
+  ICSE 2025 submission.
+  \item Python Unit Test Generator: Designed and trained the Python component using supervised 
+  fine-tuning on 50k+ test examples, achieving 9.8\% improvement in line coverage, 26.5\% 
+  in branch coverage, and 22.5\% in method coverage vs. Microsoft's CodaMOSA. Conducted 
+  160-participant survey at IBM demonstrating superior effectiveness over baselines.
+  \item Java Unit Test Generator: Evaluated Java component using mutation coverage and semantic 
+  correctness metrics, benchmarking against EvoSuite across 200+ open-source projects to 
+  assess test quality and fault-detection capability.
+  \item Multi-Agent Integration Test Generator: Architected multi-agent system using hierarchical 
+  planning where specialized agents collaborate on API endpoint discovery (static analysis 
+  agent), dependency resolution (constraint solver agent), and test case synthesis (LLM 
+  generation agent). Designed inter-agent communication protocols for REST API testing 
+  orchestration.
+\end{itemize}
+
+{\bf Samsung}, Seoul, South Korea \hfill {\em December 2023 – January 2024} \\
+{\bf PhD AI Internship} with the AI Team in the Fire \& Marine Insurance Department
+\begin{itemize}
+    \item \textbf{LLM-based Chatbot}: Developed the BoToPa chatbot using the Multi-layer RAG (Retrieval-Augmented Generation) algorithm integrated with the Large Language Model (GPT-4).
+    \item \textbf{BoToPa Chatbot}: Designed the chatbot to process inquiries and identify the closest matching insurance documents in the database, employing custom tokenizer-based BM25 and K-nearest neighbors-based text search algorithms. Achieved a 90\% reduction in costs and a 10\% increase in accuracy compared to the previous algorithm.
+\end{itemize}
+
+{\bf Google}, California, United States \hfill {\em May 2022 – August 2022} \\
+{\bf PhD SWE Internship} with the Google Chat team at Google Cloud
+\begin{itemize}
+    \item Analyzed potential security issues in chat applications.
+    \item Developed a grammar-based testing tool for internal and external chat applications which results in finding a severe security issue in Google Chat application.
+\end{itemize}
+
+{\bf IBM Research}, New York, United States \hfill {\em June 2020 – November 2020} \\
+{\bf PhD Research Internship} with the AI for Code Team at the Thomas J. Watson Research Center
+\begin{itemize}
+    \item Investigated challenges in decomposing legacy web applications using Kubernetes.
+    \item Developed a Command Line Interface tool for validating transformation of the monolithic application to microservice application.
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Georgia Institute of Technology}, Georgia, United States \hfill {\em Dec 2024} \\
+Ph.D. in Computer Science
+
+{\bf Kookmin University}, Seoul, South Korea \hfill {\em August 2019} \\
+B.S. in Computer Science %(GPA: 3.44/4.0)
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+\vspace{0.5em}
+\textit{Note: ICSE, FSE, ASE, and ISSTA are widely recognized as the top four conferences in the field of Software Engineering.}
+
+\textbf{Myeongsoo Kim}, Siwei Cui, Farima Farmahinifarahani, Dingmin Wang, Shweta Garg, Rajdeep Mukherjee, Baishakhi Ray, Varun Kumar. \textit{TrajEval: Diagnosing Code Agent Reasoning Beyond Pass@k}. Under review at COLM 2026. [Code agent evaluation, trajectory analysis, capability diagnostics]
+
+\textbf{Myeongsoo Kim}, Shweta Garg, Murali Krishna Ramanathan, Varun Kumar. \textit{CODESTRUCT: Code Agents over Structured Action Spaces}. In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL). 2026. [AST-based code read/write, structured reasoning, patent filed]
+
+\textbf{Myeongsoo Kim}, Shweta Garg, Baishakhi Ray, Varun Kumar, Anoop Deoras. \textit{CodeAssistBench (CAB): Dataset \& Benchmarking for Multi‑turn Chat‑Based Code Assistance}. In Proceedings of NeurIPS 2025, Datasets \& Benchmarks Track. 2025. [Multi-turn dialogue, agentic evaluation]
+
+Tyler Stennett, \textbf{Myeongsoo Kim}, Saurabh Sinha, Alessandro Orso. \textit{AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL}. In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering (ICSE), Demonstrations Track. 2025. [Multi-agent systems, hierarchical planning, tool orchestration]
+
+\textbf{Myeongsoo Kim}, Saurabh Sinha, Alessandro Orso. \textit{LlamaRestTest: Effective REST API Testing with Small Language Models}. Proceedings of the ACM on Software Engineering 2.FSE (2025): 465-488. [LLM fine-tuning, cost-efficient agent design]
+
+\textbf{Myeongsoo Kim}, Saurabh Sinha, Alessandro Orso. \textit{ASTER: Natural and Multi-language Unit Test Generation with LLMs}. In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering (ICSE), Software Engineering in Practice (SEIP) Track. 2025. [\textbf{Distinguished Paper Award}, multi agent].
+
+\textbf{Myeongsoo Kim}, Saurabh Sinha, Alessandro Orso. \textit{A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs}. In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering (ICSE). 2025.
+
+\textbf{Myeongsoo Kim}, Santosh Pande, Alessandro Orso. \textit{Improving Program Debloating with 1-DU Chain Minimality}. 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion). p. 384–385.
+
+\textbf{Myeongsoo Kim}, Tyler Stennett, Dhruv Shah, Saurabh Sinha, Alessandro Orso. \textit{Leveraging Large Language Models to Improve REST API Testing}. In Proceedings of the ICSE-NIER 2024, IEEE/ACM International Conference on Software Engineering - New Ideas and Emerging Results Track (ICSE-NIER). 2024. p. 37-41.
+
+\textbf{Myeongsoo Kim}, Saurabh Sinha, Alessandro Orso. \textit{Adaptive REST API Testing with Reinforcement Learning}. In Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE). 2023. p. 446-458.
+
+\textbf{Myeongsoo Kim}, Davide Corradini, Michele Pasqua, Mariano Ceccato, Alessandro Orso, Saurabh Sinha, Rachel Tzoref-Brill, Mariano Ceccato. \textit{Enhancing REST API Testing with NLP Techniques}. In Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). 2023. p. 1232-1243.
+
+\textbf{Myeongsoo Kim}, Qi Xin, Saurabh Sinha, Alessandro Orso. \textit{Automated Test Generation for REST APIs: No Time to Rest Yet}. In Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). 2022. p. 289-301.
+
+Qi Xin, \textbf{Myeongsoo Kim}, Qirun Zhang, Alessandro Orso. \textit{Subdomain-Based Generality-Aware Debloating}. In Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering (ASE). 2020. p. 224-236.
+
+Qi Xin, \textbf{Myeongsoo Kim}, Qirun Zhang, Alessandro Orso. \textit{Program Debloating via Stochastic Optimization}. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER). 2020. p. 65-68.
+
+\textbf{Myeongsoo Kim}, Changheon Song, Hyeji Kim, Deahyun Park, Yeeji Kwon, Eun Namkung, Ian G. Harris, Marcel Carlsson. \textit{Scam Detection Assistant: Automated Protection from Scammers}. In 2019 First International Conference on Societal Automation (SA). IEEE, 2019. p. 1-8.
+
+Elahe Paikari, JaeEun Choi, SeonKyu Kim, Sooyoung Baek, \textbf{Myeongsoo Kim}, SeungEon Lee, ChaeYeon Han, YoungJae Kim, KaHye Ahn, Chan Cheong, André van der hoek. \textit{A chatbot for conflict detection and resolution}. In 2019 IEEE/ACM 1st International Workshop on Bots in Software Engineering (BotSE). IEEE, 2019. pp. 29-33.
+
+\textbf{Myeongsoo Kim}, Eun-Jin Im. \textit{Ethereum Smart Contract Vulnerability Detector}. Journal of the Korea Information Science Association, 2018, pp. 1940-1942.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+{\bf Aristotle Lab}, Georgia Institute of Technology \hfill {\em August 2019 – Dec 2024} \\
+Graduate Researcher, Advisor: Prof. Alessandro Orso
+\begin{itemize}
+    \item Developed novel REST API test generation using Multi-Agent Reinforcement Learning (MARL), 
+  training collaborative agents with custom reward shaping to explore API state spaces and 
+  maximize code/fault coverage. Implemented policy gradient methods (PPO) for long-horizon 
+  test sequence generation (ASE 2023, ISSTA 2022).
+  \item Designed semantic graph-based state representation for REST API testing, enabling agents 
+  to reason about resource dependencies and action constraints. Trained DQN-based agents 
+  on 15+ real-world services, achieving 34\% higher branch coverage than baselines (ICSE 2025).
+  \item Built LLM-guided test generation pipeline combining fine-tuned smaller language models 
+  (Llama, CodeLlama) with reinforcement learning for parameter inference and constraint 
+  solving, reducing generation cost by 80\% while maintaining effectiveness (FSE 2025).
+  \item Enhanced API documentation understanding through NLP techniques (BERT fine-tuning, 
+  semantic similarity, entity extraction) to improve test input quality and reduce invalid 
+  requests by 45\% (ISSTA 2023).
+  \item Designed program debloating technique using data dependency analysis and 1-DU chain 
+  minimality for source code reduction, achieving 23\% average size reduction with zero 
+  functionality loss (ICSE Companion 2024).
+  \item Mentored three undergraduate and two graduate students on RL-based testing, LLM 
+  fine-tuning, and multi-agent systems research projects.
+\end{itemize}
+
+{\bf Embedded Lab}, Kookmin University \hfill {\em September 2018 – August 2019} \\
+Undergraduate Researcher, Advisor: Prof. Eun-Jin Im
+\begin{itemize}
+    \item Investigated security issues in peer-to-peer energy transactions.
+    \item Developed a transaction platform using Ethereum smart contracts, integrating a solar panel, Samsung ARTIK IoT, and a rechargeable battery.
+    % \item Developed a smart contract vulnerability checker with an integrated ether-wallet interface.
+    % \item Assessed and compared the security features of nine state-of-the-art tools to our platform.
+\end{itemize}
+
+{\bf Software Design and Collaboration Lab}, University of California, Irvine \hfill {\em June 2018 – August 2018} \\
+Undergraduate Researcher, Advisor: Prof. André van der Hoek
+\begin{itemize}
+    \item Implemented a code conflict checking algorithm to monitor developer activities, alert on potential code conflicts, and make suggestions to solve the alerts.
+    \item Designed an intent classifier using NLP techniques for user intent recognition.
+\end{itemize}
+
+{\bf Embedded Lab}, Kookmin University \hfill {\em January 2018 – May 2018} \\
+Undergraduate Researcher, Advisor: Prof. Eun-Jin Im
+\begin{itemize}
+    \item Developed a smart contract vulnerability checker with an integrated ether-wallet interface.
+    \item Assessed and compared the security features of nine state-of-the-art tools to our platform.
+\end{itemize}
+
+{\bf System Test Lab}, University of California, Irvine \hfill {\em June 2017 – December 2017} \\
+Undergraduate Researcher, Advisor: Prof. Ian G. Harris
+\begin{itemize}
+    \item Implemented a text type classifier using CoreNLP, Question Answering System, and TF-IDF.
+    \item Distributed the scam detection program with a dataset of 180,000 scam emails.
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Teaching Experience}
+% {\bf Georgia Institute of Technology}, GA, United States \hfill {\em August 2021 – December 2021} \\
+% Teaching Assistant, Advanced Software Engineering (CS 6301)
+% \end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards}
+
+\textbf{Distinguished Paper Award}, ICSE 2025 (SEIP Track) \hfill {\em April 2025} \\
+\textbf{Third Prize}, Hand in Hand Challenge \hfill {\em January 2021} \\
+\textbf{CS 7001 Award}, GT Computing Student Awards \hfill {\em April 2020} \\
+\textbf{Undergraduate Research Fellowship}, Kookmin University \hfill {\em 2017-2019}\\
+\textbf{First Prize}, LINE Blockchain Competition \hfill {\em December 2018} \\
+\textbf{Second Prize}, KMU Capstone Design Competition \hfill {\em November 2018} \\
+\textbf{Best Undergraduate Paper Award}, Korea Computer Congress \hfill {\em July 2018} \\
+\textbf{Software Creativity Award (First Prize)}, President of Korea Science Foundation \hfill {\em March 2017}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Technical Skills}
+% \textbf{Language}: Python, Java, C \\
+% \textbf{OS}: Windows, Mac, Ubuntu, Debian, CentOS \\
+% \textbf{Domain Experience}: Software Testing, REST API, Natural Language Processing, Neural Networks, Reinforcement Learning, Blockchain 
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SERVICE AND LEADERSHIP SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Service and Leadership}
+% Reviewer, ACM Transactions on Software Engineering and Methodology \hfill {\em 2025} \\
+% Reviewer, IEEE ACCESS \hfill {\em 2025} \\
+% Reviewer, Jordanian Journal of Computers and Information Technology \hfill {\em 2024} \\
+% President, Georgia Tech Korean Student Association \hfill {\em 2020 - 2021} \\
+% Web Developer, Georgia Tech Korean Student Association \hfill {\em 2019 - 2020}\\
+% Volunteer for Making Braille Books for the Blind, Song-Pa Community Center \hfill {\em January 2017 - February 2017}\\
+% Sergeant, Republic of Korea Army \hfill {\em August 2014 – May 2016} 
+% \end{rSection}
+
+\end{document}
