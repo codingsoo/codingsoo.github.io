@@ -13,7 +13,6 @@ I earned my PhD in Computer Science from Georgia Tech, advised by [Prof. Alessan
 
 ## Recent News
 
-- **[Blog Post]** "Surgical Precision with AST" on the Kiro blog. [[Read](https://kiro.dev/blog/surgical-precision-with-ast/)]
 - **[Upcoming Talk]** "Harness Optimization Through Live Traffic Analysis" at the Harness Engineering meetup, AWS Builder Loft, San Francisco. [[Event](https://luma.com/rtd0f6ka)]
 - **[EMNLP 2026 - Under Review]** "Coherence Collapse: Diagnosing Why Code Agents Fail After Reaching the Right Code"  
   **Myeongsoo Kim**, Dingmin Wang, Siwei Cui, Farima Farmahinifarahani, Terry Yue Zhuo, Shweta Garg, Baishakhi Ray, Rajdeep Mukherjee, Varun Kumar  
@@ -21,6 +20,7 @@ I earned my PhD in Computer Science from Georgia Tech, advised by [Prof. Alessan
 - **[ACL 2026]** "CodeStruct: Code Agents over Structured Action Spaces"  
   **Myeongsoo Kim**, Joe Hsu, Dingmin Wang, Shweta Garg, Varun Kumar, Murali Krishna Ramanathan  
   [[arXiv](https://arxiv.org/abs/2604.05407)]
+- **[Blog Post]** "Surgical Precision with AST" on the Kiro blog. [[Read](https://kiro.dev/blog/surgical-precision-with-ast/)]
 - **[NeurIPS 2025 D&B]** "CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance"  
   **Myeongsoo Kim**, Shweta Garg, Baishakhi Ray, Varun Kumar, Anoop Deoras  
   [[arXiv](https://arxiv.org/abs/2507.10646)]
