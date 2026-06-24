@@ -13,6 +13,7 @@ I earned my PhD in Computer Science from Georgia Tech, advised by [Prof. Alessan
 
 ## Recent News
 
+- **[Blog Post]** "Surgical Precision with AST" on the Kiro blog. [[Read](https://kiro.dev/blog/surgical-precision-with-ast/)]
 - **[Upcoming Talk]** "Harness Optimization Through Live Traffic Analysis" at the Harness Engineering meetup, AWS Builder Loft, San Francisco. [[Event](https://luma.com/rtd0f6ka)]
 - **[EMNLP 2026 - Under Review]** "Coherence Collapse: Diagnosing Why Code Agents Fail After Reaching the Right Code"  
   **Myeongsoo Kim**, Dingmin Wang, Siwei Cui, Farima Farmahinifarahani, Terry Yue Zhuo, Shweta Garg, Baishakhi Ray, Rajdeep Mukherjee, Varun Kumar  
