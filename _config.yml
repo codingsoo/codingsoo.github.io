@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Myeongsoo Kim"
 title_separator          : "-"
 name                     : &name "Myeongsoo Kim"
-description              : &description "Applied Scientist at AWS AI Labs working on Kiro"
+description              : &description "Senior Applied Scientist at AWS AI Labs working on Kiro"
 url                      : https://codingsoo.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "codingsoo/codingsoo.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Myeongsoo Kim"
   pronouns         : # example: "she/her"  
-  bio              : "Applied Scientist at AWS AI Labs working on Kiro. Building coding agents and the evaluation and trajectory-analysis loops that make them better."
+  bio              : "Senior Applied Scientist at AWS AI Labs working on Kiro. Building coding agents and the evaluation and trajectory-analysis loops that make them better."
   location         : "Santa Clara, CA"
   employer         : "AWS AI Labs"
   uri              : # URL

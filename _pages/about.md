@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Myeongsoo Kim, an Applied Scientist at AWS AI Labs working on [Kiro](https://kiro.dev). I build coding agents and the evaluation infrastructure that makes them better: benchmarks to measure where they fail, trajectory analysis to diagnose why, and self-improvement loops that turn those findings into validated fixes.
+Hi, I'm Myeongsoo Kim, a Senior Applied Scientist at AWS AI Labs working on [Kiro](https://kiro.dev). I build coding agents and the evaluation infrastructure that makes them better: benchmarks to measure where they fail, trajectory analysis to diagnose why, and self-improvement loops that turn those findings into validated fixes.
 
 I earned my PhD in Computer Science from Georgia Tech, advised by [Prof. Alessandro Orso](https://engineering.uga.edu/team_member/alex-orso/).
 
